@@ -1,0 +1,61 @@
+*{}
+
+.cangiua {
+    width: 900px;
+    margin: auto;
+}
+
+.tink14 p {
+    color: gray;
+    font-family: arial;
+    font-size: 13px;
+    line-height: 18px;
+}
+
+a.tieude:hover {
+    text-decoration: underline;
+}
+
+a.tieude {
+    font-family: times;
+    display: block;
+    text-decoration: none;
+    padding-top: 14px;
+    color: black;
+    line-height: 23px;
+    font-size: 17px;
+}
+
+span.gio {
+    font-weight: bold;
+    font-family: arial;
+    font-size: 11px;
+    color: #777;
+}
+
+a.danhmuc {
+    text-decoration: none;
+    font-family: arial;
+    font-size: 10px;
+    text-transform: uppercase;
+    color: black;
+    border: 1px solid gray;
+    padding: 2px 6px;
+}
+
+a.danhmuc:hover {
+    background: black;
+    color: white;
+}
+
+.tink14 img {
+    float: left;
+    margin-right: 12px;
+}
+
+article.tink14 {
+    width: 760px;
+    height: 171px;
+    border-bottom: 1px solid #CECDCD;
+    margin-bottom: 28px;
+}

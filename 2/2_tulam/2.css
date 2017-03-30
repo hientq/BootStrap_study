@@ -1,0 +1,64 @@
+.box {
+    text-align: center;
+    float: left;
+}
+
+.tieude {
+    font-family: arial;
+    font-weight: bold;
+    font-size: 23px;
+    color: black;
+    /* margin-top: 59px; */
+    padding: 10px 10px;
+    /* height: 50px; */
+}
+
+.info {
+    font-size: 17px;
+    font-style: italic;
+    color: #777;
+    padding-bottom: 16px;
+}
+
+.box_1 {
+    position: relative;
+    float: left;
+    width: 400px;
+    height: 306px;
+    text-align: center;
+}
+
+.box_2 {
+    /* height: 30px; */
+    background: white;
+}
+
+.box {
+    height: 450px;
+    margin-right: 16px;
+}
+
+.tieude {}
+
+.overlay {
+    background: #f4f3e0;
+    opacity: 0;
+    position: absolute;
+    top: -200px;
+    width: 400px;
+    height: 290px;
+    transition: 0.7s;
+}
+
+.box_1:hover .overlay {
+    opacity: 0.8;
+    top: 0px;
+}
+body {
+    background: rgba(218, 220, 225, 0.57);
+}
+
+.main_content {
+    width: 1250px;
+    margin: auto;
+}

@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+.top2 .container.text-center {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+html,body{
+	height: 100%;
+}
+.top1{
+	background-image: url("img/2.jpg");
+	height: 100%;
+	background-size: cover;
+}
+.top1 h1{
+	font-size:60px;
+	padding-top: 65%;
+	color: white;
+}
+.top1 p {
+    font-size: 20px;
+    color: white;
+}
+.top1 .btn .btn-default{
+    margin-bottom: 300px;
+}
+.top1 .btn.btn-default {
+    border-radius: 0px;
+    background: #252222;
+    color: white;
+    border: none;
+    padding: 10px 10px;
+}
+.top1 .btn.btn-default:hover {
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+}
+.top2 h2 {
+    font-size: 25px;
+}
+
+.top2 p {
+    font-size: 18px;
+}
+.top2{
+	padding : 30px 0px;
+}
+.top3{
+	background-color: #3071c2;
+	color: white;
+	padding-top: 40px;
+	padding-bottom: 30px;
+}
+hr.vienduoi {
+    width: 10%;
+    margin-top: 15px;
+}
+
+.top3 h2 {
+    font-size: 30px;
+    padding-top: 33px;
+}
+.iconto .fa {
+    background: white;
+    color: #3071c2;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    font-size: 50px;
+    border-radius: 50%;
+}
+.row_4cot p {
+    font-size: 12px;
+}
+
+.top3 h3 {
+    font-size: 17px;
+}
+.top3 a.btn.btn-default.nuttrang {
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 0px;
+}
+.top4{
+	background-image: url("img/3.jpg");
+	background-size: cover;
+	height: 380px;
+}
+.top4 h2{
+	font-size: 50px;
+	color: black;
+	margin-top: 15%;
+}
+.tieudetop3 h2{
+	font-size: 44px;
+}
+.tieudetop3{
+	padding : 30px 0px;
+}
+.top5 img{
+	margin-left: 15px;
+	margin-bottom: 40px;
+}
+.viewmoreitem{
+	border: none;
+	border-radius: 0px;
+	background-color: #828080;
+	padding: 10px 15px;
+	font-size: 18px;
+}
+.viewmoreitem:hover{
+	background-color: black;
+}
+.top6.xanh{
+	background-color: #62a9e7;
+	padding: 40px;
+	margin-top: 30px;
+}
+
+.top6.xanh h2 {
+    font-size: 23px;
+    color: white;
+}
+
+.top6 .nut1,
+.top6 .nut2 {
+    border: none;
+    border-radius: 0px;
+    margin-right: 20px;
+    padding: 8px 29px;
+}
+.top6 .nut2{
+	background-color: black;
+	color: white;
+}
+.footer{
+	margin-top: 50px;
+}
+.dt,.email,.xahoi{
+	margin-bottom: 20px;
+}
+.xahoi a{
+	margin-right: 15px;
+}
+
+.nutmenu{
+	position: fixed;
+	right: 5px;
+	top: 5px;
+	padding: 8px 15px;
+	background: black;
+	z-index: 1;
+}
+
+.tabmenuphai{
+	position: fixed;
+	right: 0px;
+	top: 0px;
+	width: 250px;
+	height: 100%;
+	z-index: 3;
+	background: black;
+	color: white;
+	transition: all 0.6s;
+	right: -250px;
+}
+.tabmenuphai h4{
+	padding-top: 10px;
+	padding-left: 20px;
+}
+ul.menudoc {
+    padding-left: 0px;
+    padding-top: 20px;
+}
+
+.menudoc a {
+    color: white;
+    padding: 17px 28px;
+    display: block;
+    border-bottom: 1px solid gray;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.menudoc li {
+    list-style-type: none;
+}
+
+.tabmenuphai.ra{
+	right: 0px;
+}
+#menuclose{
+	background-color: white;
+	border: none;
+	border-radius: 0px;
+	margin : 10px 10px;
+}
+.lihover{
+	background: lightgray;
+}
+.ahover{
+	color: black;
+}

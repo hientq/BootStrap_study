@@ -1,0 +1,68 @@
+*{
+	margin: 0;
+	padding:0;
+}
+nav.navbar.navbar-default{
+	height: 85px;
+	padding-top: 10px;
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{
+	color:#1abc9c;
+}
+body {
+	font-family: 'Lato', sans-serif;
+}
+.navbar-brand{
+	font-weight: bold;
+}
+.navbar-default .navbar-nav>li>a {
+    text-transform: uppercase;
+    letter-spacing: 8px;
+}
+.navbar-default {	
+	border: none;
+}
+.xanh{
+	padding :50px 0px;
+	background-color:#2dc99d;
+	color: white;
+}
+.xanh h3{
+	padding-top: 20px;
+	padding-bottom: 30px;
+}
+.navbar {
+	margin-bottom: 0px;
+}
+.xam{
+	background-color: #555;
+	padding-bottom: 40px;
+	padding-top: 30px;
+	color: white;
+}
+.xam h2{
+	padding-bottom: 30px;
+}
+.xam p{
+	font-size: 15px;
+}
+.xam .btn-default{
+	font-size: 18px;
+	padding: 10px 20px;
+}
+.findme h2{
+	padding : 50px 0px;
+}
+.findme p {
+	font-size: 15px;
+}
+.findme .thumbnail{
+	border: none;
+}
+.footer .navbar-inverse{
+	height: 50px;
+}
+.footer .row {
+	padding: 40px 0px;
+	color: white;
+}

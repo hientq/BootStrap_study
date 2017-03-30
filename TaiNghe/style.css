@@ -1,0 +1,41 @@
+.phone{
+	margin-bottom: 10px;
+}
+.new_product{
+	position: relative;
+}
+.hots{
+	background-color: red;
+	padding: 10px 10px;
+	position: absolute;
+	top : 30px;
+	left: 30px;
+	border-radius: 10px;
+}
+.buynow {
+	position: absolute;
+	bottom: 30px;
+	right: 30px;
+	padding: 10px 50px;
+	opacity: 0;
+}
+.new_product:hover .buynow{
+	opacity: 1;
+}
+.footer-font{
+	font-size: 12px;
+	list-style: none;
+}
+
+.tab-fast{
+	position: fixed;
+	top : 300px;
+	width: 200px;
+}
+.navbar {
+	margin-bottom: 0px;
+}
+nav.navbar.navbar-default{
+	height: 150px;
+	padding-top: 10px;
+}

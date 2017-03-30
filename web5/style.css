@@ -1,0 +1,80 @@
+*{
+	margin : 0;
+	padding : 0;
+}
+.btn.btn-default{
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.backgroud-slider{
+	background-image: url("img/3.jpg");
+	height: 470px;
+}
+.navbar{
+	margin-bottom: 0px;
+}
+.backgroud-slider .container .row{
+	margin-top: 140px;
+}
+.backgroud-slider hr {
+    border: 2px solid white;
+}
+.nenxam1{
+	background-color: #fbf9f9;
+}
+.nenxam2{
+	background-color: #e7e7e7;
+}
+.nenxam1 .row,
+.nenxam2 .row {
+	margin: 30px 0px;
+}
+.nenxam1 .row hr,
+.nenxam2 .row hr {
+	border: 2px solid #d2d1d1;
+	width: 50%;
+}
+.nenxam1 .nenxam1-title
+.nenxam2 .nenxam2-title{
+	margin-bottom: 30px;
+}
+.phancach{
+	margin : 0;
+	border: 1px solid lightgray;
+}
+.backgroud-footer{
+	background-image: url("img/3.jpg");
+	
+}
+.backgroud-footer .row{
+	height: 200px;
+	line-height: 200px;
+}
+.backgroud-footer span {
+	font-size: 30px;
+	font-weight: bold;
+}
+.menutrai li {
+    float: left;
+    margin-right: 33px;
+    list-style: none;
+    font-size: 13px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.foot{
+	padding-bottom: 30px;
+}
+.foot small{
+	color: lightgray;
+}
+.fix-top{
+	position: fixed;
+	top : 0px;
+}
+nav.navbar.navbar-default {
+    position: fixed;
+    top: 0px;
+    z-index: 1000000;
+    width: 100%;
+}
