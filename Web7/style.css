@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+ul.nav.navbar-nav.navbar-right {
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-top: 30px;
+}
+nav.navbar.navbar-default{
+	height: 111px;
+	background-color: #2d3e50;
+}
+.navbar-default .navbar-nav>li>a {
+    color: white;
+    font-size: 16px;
+}
+
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+
+.top2 .ngoisao,
+.contact .ngoisao {
+    width: 10%;
+    height: 40px;
+    line-height: 40px;
+    position: absolute;
+    top: -5px;
+    font-size: 25px;
+    margin: 0px 41%;
+    background-color: white;
+}
+
+.top1 .phancach-top1 {
+    margin: 14px 0px;
+}
+
+.top1 h4 {
+    color: white;
+    margin-top: 77px;
+    text-transform: capitalize;
+}
+
+.top1 .ngoisao,
+.about .ngoisao{
+    font-size: 29px;
+    color: white;
+    position: absolute;
+    top: 0px;
+    width: 10%;
+    background: #35c6b2;
+    height: 30px;
+    line-height: 30px;
+    margin: -1px 40%;
+}
+
+
+
+.top2 h2,
+.contact h2{
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+hr.hr-top1 {
+    border: 2px solid white;
+    margin-top: 12px;
+}
+
+hr.hr-top2 {
+    border: 2px solid black;
+    margin-top: 12px;
+    width: 42%;
+}
+
+.text-top1 h1 {
+    color: white;
+    text-transform: uppercase;
+    font-size: 47px;
+    width: 100%;
+}
+
+.navbar-default .navbar-brand{
+	padding-top: 44px;
+	font-size: 38px;
+	text-transform: uppercase;
+	color: white;
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: #117e7c;
+}
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover{
+	color: #117e7c;
+}
+.navbar{
+	margin-bottom: 0px;
+	border: none;
+}
+
+.top1{
+	height: 549px;
+	background-color: #35c6b2;
+	padding-top: 5%;
+	margin-top: 111px;
+}
+
+.row.phancach-top2 {
+    padding: 0px 97px;
+}
+.top2 {
+    padding: 70px 0px;
+}
+.product{
+	margin-top: 3%;
+}
+
+.sanpham {
+    position: relative;
+    margin-bottom: 7%;
+}
+
+ .over-img {
+    width: 100%;
+    position: absolute;
+    opacity: 0;
+    top: -25px;
+    transition: all 1s;
+    background-color: #35c6b2;
+    cursor: pointer;
+}
+.sanpham:hover .over-img {
+    opacity: 1;
+    top:0px;
+}
+
+.about {
+    background-color: #35c6b2;
+    height: 450px;
+    padding: 45px 0px;
+}
+.text-about{
+	color: white;
+	font-size: 15px;
+	margin-top: 30px;
+}
+
+.about a.btn.btn-default {
+    background: #35c6b2;
+    border: 1px solid white;
+    border-radius: 0px;
+    margin-top: 30px;
+    padding : 10px 10px;
+}
+.about a.btn.btn-default:hover{
+	background-color: lightgreen;
+}
+
+.contact{
+	height: 700px;
+    padding: 45px 0px;
+}
+.contact textarea {
+   resize: none;
+}
+.contact button.btn.btn-default {
+    background-color: #35c6b2;
+    margin-top: 50px;
+}
+.form-meg{
+	margin-top: 30px;
+}
+.contact input,
+.contact textarea {
+    border-bottom: 1px solid gray;
+    border-radius: 0px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.footer1 {
+    background-color: rgba(14, 14, 41, 0.8);
+    color: white;
+    height: 300px;
+    padding: 50px 0px;
+}
+.footer1 h3{
+	text-transform: uppercase;
+	margin-bottom: 30px;
+}
+/* .footer1 i{
+	border: 1px solid black;
+	border-radius: 50%;
+	padding : 10px;
+} */
+
+.icon-background4 {
+    color: rgba(14, 14, 41, 0.8);
+}
+.footer2{
+	height: 100px;
+	line-height: 100px;
+	color: white;
+}
+nav.navbar.navbar-default {
+    position: fixed;
+    top: 0px;
+    z-index: 1000000;
+    width: 100%;
+}
