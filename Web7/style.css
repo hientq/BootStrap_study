@@ -5,8 +5,27 @@ ul.nav.navbar-nav.navbar-right {
     padding-top: 30px;
 }
 nav.navbar.navbar-default{
-	height: 111px;
-	background-color: #2d3e50;
+    height: 111px;
+    background-color: #2d3e50;
+    transition: all 0.4s;
+}
+
+nav.navbar.navbar-default.affix {
+    left: 19%;
+    border: none;
+    z-index: 10;
+    top: 0px;
+}
+
+nav.navbar.navbar-default.affix:after {
+    content: "";
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 111px;
+    background-color: #2d3e50;
+    z-index: 10;
 }
 .navbar-default .navbar-nav>li>a {
     color: white;
@@ -14,7 +33,17 @@ nav.navbar.navbar-default{
 }
 
 body{
-	font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar-header {
+    position: relative;
+    z-index: 20;
+}
+
+.collapse.navbar-collapse.navbar-ex1-collapse {
+    position: relative;
+    z-index: 20;
 }
 
 .top2 .ngoisao,
@@ -56,8 +85,8 @@ body{
 
 .top2 h2,
 .contact h2{
-	text-transform: uppercase;
-	font-weight: bold;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 
 hr.hr-top1 {
@@ -79,27 +108,27 @@ hr.hr-top2 {
 }
 
 .navbar-default .navbar-brand{
-	padding-top: 44px;
-	font-size: 38px;
-	text-transform: uppercase;
-	color: white;
+    padding-top: 44px;
+    font-size: 38px;
+    text-transform: uppercase;
+    color: white;
 }
 .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
     color: #117e7c;
 }
 .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover{
-	color: #117e7c;
+    color: #117e7c;
 }
 .navbar{
-	margin-bottom: 0px;
-	border: none;
+    margin-bottom: 0px;
+    border: none;
 }
 
 .top1{
-	height: 549px;
-	background-color: #35c6b2;
-	padding-top: 5%;
-	margin-top: 111px;
+    height: 549px;
+    background-color: #35c6b2;
+    padding-top: 5%;
+    margin-top: 111px;
 }
 
 .row.phancach-top2 {
@@ -109,7 +138,10 @@ hr.hr-top2 {
     padding: 70px 0px;
 }
 .product{
-	margin-top: 3%;
+    margin-top: 3%;
+    transition: all 2s;
+    opacity: 0;
+    transform: translateY(300px);
 }
 
 .sanpham {
@@ -137,9 +169,9 @@ hr.hr-top2 {
     padding: 45px 0px;
 }
 .text-about{
-	color: white;
-	font-size: 15px;
-	margin-top: 30px;
+    color: white;
+    font-size: 15px;
+    margin-top: 30px;
 }
 
 .about a.btn.btn-default {
@@ -150,11 +182,11 @@ hr.hr-top2 {
     padding : 10px 10px;
 }
 .about a.btn.btn-default:hover{
-	background-color: lightgreen;
+    background-color: lightgreen;
 }
 
 .contact{
-	height: 700px;
+    height: 700px;
     padding: 45px 0px;
 }
 .contact textarea {
@@ -165,7 +197,7 @@ hr.hr-top2 {
     margin-top: 50px;
 }
 .form-meg{
-	margin-top: 30px;
+    margin-top: 30px;
 }
 .contact input,
 .contact textarea {
@@ -183,26 +215,43 @@ hr.hr-top2 {
     padding: 50px 0px;
 }
 .footer1 h3{
-	text-transform: uppercase;
-	margin-bottom: 30px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
 }
 /* .footer1 i{
-	border: 1px solid black;
-	border-radius: 50%;
-	padding : 10px;
+    border: 1px solid black;
+    border-radius: 50%;
+    padding : 10px;
 } */
 
 .icon-background4 {
     color: rgba(14, 14, 41, 0.8);
 }
 .footer2{
-	height: 100px;
-	line-height: 100px;
-	color: white;
+    height: 100px;
+    line-height: 100px;
+    color: white;
 }
-nav.navbar.navbar-default {
+/* nav.navbar.navbar-default {
     position: fixed;
     top: 0px;
     z-index: 1000000;
     width: 100%;
+} */
+nav.navbar.navbar-default.thunho {
+    height: 70px;
 }
+.thunho .navbar-brand {
+    padding-top: 24px;
+    font-size: 30px;
+}
+.thunho ul.nav.navbar-nav.navbar-right{
+    padding-top: 10px;
+}
+
+.top2-animate .product{
+    opacity: 1;
+    transform: translateY(0px);
+
+}
+
